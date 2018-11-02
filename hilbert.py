@@ -41,14 +41,11 @@ pt = open('hilbert.txt','r')
 punten = []
 for lin in pt:
     x,y = float(lin.split(' ')[0]),float(lin.split(' ')[1])
-    print('o',x,y)
 # scale for the UNIT square should be the 2 ^ x
 # to fill the square: I think scale = 2 ^ n, so with n from the hilbert curve function in this setup: n = 7 fills the scaled square
     scale = 256
-    print('+',x,y)
     x *= scale
     y *= scale
-    print('*',x,y)
     punten.append([int(x),int(y)])
 print(len(punten))
 # pygame loop

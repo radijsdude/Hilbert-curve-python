@@ -3,4 +3,4 @@
 
 Have pygame installed
 
-Run GUI.py
+Run hilbert.py

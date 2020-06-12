@@ -1,5 +1,5 @@
 
-# copyright http://www.fundza.com/algorithmic/space_filling/hilbert/basics/index.html
+# http://www.fundza.com/algorithmic/space_filling/hilbert/basics/index.html
 # wikipedia hilbert curve
 
 #to visualize
@@ -77,4 +77,3 @@ class loop():
 loop().run()
 # ive been able to plot images with this line when the points are used as list indices so i guess it does what it is supposed to do
 
-# copyright: http://www.fundza.com/algorithmic/space_filling/hilbert/basics/index.html
